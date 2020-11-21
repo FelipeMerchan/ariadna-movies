@@ -1,0 +1,92 @@
+{
+  "initialState": [
+    {
+      "id": 0,
+      "title": "Avengers Infinity War",
+      "language": "Español",
+      "year": 2018,
+      "contentRating": "16+",
+      "duration": 156,
+      "category": "New Releases",
+      "cover": "./src/assets/static/thumbnails/avengers-infinity-war.jpg",
+      "description": "El todopoderoso Thanos ha despertado con la promesa de arrasar con todo a su paso, portando el Guantelete del Infinito, que le confiere un poder incalculable. Los únicos capaces de pararle los pies son los Vengadores y el resto de superhéroes de la galaxia, que deberán estar dispuestos a sacrificarlo todo por un bien mayor. Capitán América e Ironman deberán limar sus diferencias, Black Panther apoyará con sus tropas desde Wakanda, Thor y los Guardianes de la Galaxia e incluso Spider-Man se unirán antes de que los planes de devastación y ruina pongan fin al universo. ¿Serán capaces de frenar el avance del titán del caos?"
+    },
+    {
+      "id": 1,
+      "title": "Bohemian Rhapsody",
+      "language": "Español",
+      "year": 2018,
+      "contentRating": "16+",
+      "duration": 134,
+      "category": "New Releases",
+      "cover": "./src/assets/static/thumbnails/bohemian-rhapsody.jpg",
+      "description": "Bohemian Rhapsody es una celebración del grupo Queen, de su música y de su singular cantante Freddie Mercury, que desafió estereotipos para convertirse en uno de los showmans más queridos del mundo. El film plasma el meteórico ascenso de la banda al olimpo de la música a través de sus icónicas canciones y su revolucionario sonido, su crisis cuando el estilo de vida de Mercury estuvo fuera de control, y su triunfal reunión en la víspera del Live Aid, en la que Mercury, mientras sufría una enfermedad que amenazaba su vida, lidera a la banda en uno de los conciertos de rock más grandes de la historia. Refleja asimismo cómo se cimentó el legado de una banda que siempre se pareció más a una familia, y que continúa inspirando soñadores y amantes de la música hasta nuestros días."
+    },
+    {
+      "id": 2,
+      "title": "First Man",
+      "language": "Español",
+      "year": 2018,
+      "contentRating": "16+",
+      "duration": 141,
+      "category": "New Releases",
+      "cover": "./src/assets/static/thumbnails/first-man.jpg",
+      "description": "Cuenta la historia de la misión de la NASA que llevó al primer hombre a la luna, centrada en Neil Armstrong (Ryan Gosling) y el periodo comprendido entre los años 1961 y 1969. Un relato en primera persona, basado en la novela de James R. Hansen, que explora el sacrificio y el precio que representó, tanto para Armstrong como para los Estados Unidos, una de las misiones más peligrosas e importantes de la historia de la humanidad."
+    },
+    {
+      "id": 3,
+      "title": "Han Solo: Una historia de Star Wars",
+      "language": "Español",
+      "year": 2018,
+      "contentRating": "16+",
+      "duration": 135,
+      "category": "Most Popular",
+      "cover": "./src/assets/static/thumbnails/han-solo.jpg",
+      "description": "Muchos años antes de conocer a Luke Skywalker y la Princesa Leia, en una galaxia donde impera el caos y existen numerosas bandas criminales, el joven Han Solo consigue huir del planeta Corellia, pero atrás queda su amada Qi'ra, y Han promete volver a por ella algún día. Tras apuntarse a la Academia Imperial para ser piloto, Han conoce a un wookie llamado Chewbacca y más tarde al famoso jugador Lando Calrissian, dueño del Halcón milenario. En una misión desesperada, Han se unirá a Tobias Beckett para obtener un valioso cargamento de coaxium, del que se extrae el hiperfuel para que las naves naveguen por el hiperespacio."
+    },
+    {
+      "id": 4,
+      "title": "Los Increíbles 2",
+      "language": "Español",
+      "year": 2018,
+      "contentRating": "16+",
+      "duration": 118,
+      "category": "Most Popular",
+      "cover": "./src/assets/static/thumbnails/incredibles.jpg",
+      "description": "Secuela de Los increíbles. Helen tiene que liderar una campaña para que los superhéroes regresen, mientras Bob vive su vida normal con Violet, Dash y el bebé Jack-Jack —cuyos superpoderes descubriremos—. Su misión se va a pique cuando aparece un nuevo villano con un brillante plan que lo amenaza todo. Pero los Parr no se amedrentarán y menos teniendo a Frozone de su parte."
+    },
+    {
+      "id": 5,
+      "title": "Jurassic World: El reino caído",
+      "language": "Español",
+      "year": 2018,
+      "contentRating": "16+",
+      "duration": 128,
+      "category": "Trends",
+      "cover": "./src/assets/static/thumbnails/jurassic-world.jpg",
+      "description": "Una erupción volcánica amenaza a los dinosaurios restantes en la Isla Nublar, donde las criaturas han vagado libremente durante años tras de la desaparición del parque temático Jurassic World. Claire Dearing, ex gerente del parque, ahora fundó el Grupo de Protección de Dinosaurios, una organización dedicada a intentar preservarlos. Cuando a Claire le ofrecen la oportunidad de rescatar algunos ejemplares de la isla, acude a Owen Grady, el ex entrenador de dinosaurios que trabajó en el parque, para que la ayude a evitar la extinción de los dinosaurios... Secuela de Jurassic World."
+    },
+    {
+      "id": 6,
+      "title": "Venom",
+      "language": "Español",
+      "year": 2018,
+      "contentRating": "16+",
+      "duration": 95,
+      "category": "My Favorites",
+      "cover": "./src/assets/static/thumbnails/venom.jpg",
+      "description": "Como periodista, Eddie Brock (Tom Hardy) lleva tiempo intentando desenmascarar al creador de la Fundación Vida, el famoso genio científico Carlton Drake (Riz Ahmed), una obsesión que ha arruinado su carrera y su relación con su novia, Anne (Michelle Williams). Al investigar uno de los experimentos de Drake, el ente alienígena Venom se fusiona con el cuerpo de Eddie, y el reportero adquiere de pronto nuevos e increíbles superpoderes, así como la oportunidad de hacer prácticamente lo que se le antoje. Retorcido, oscuro, impredecible e impulsado por la cólera, Venom obliga a Eddie a luchar por controlar unas habilidades sumamente peligrosas que, al mismo tiempo, también resultan embriagadoras y le hacen sentir poderoso. Dado que Eddie y Venom se necesitan mutuamente para conseguir lo que quieren, se van entremezclando cada vez más... ¿Dónde acaba Eddie y empieza Venom?"
+    },
+    {
+      "id": 7,
+      "title": "Deadpool",
+      "language": "Español",
+      "year": 2016,
+      "contentRating": "16+",
+      "duration": 106,
+      "category": "Recommendations",
+      "cover": "./src/assets/static/thumbnails/deadpool.jpg",
+      "description": "Basado en el anti-héroe menos convencional de la Marvel, Deadpool narra el origen de un ex-operativo de la fuerzas especiales llamado Wade Wilson, reconvertido a mercenario, y que tras ser sometido a un cruel experimento adquiere poderes de curación rápida, adoptando Wade entonces el alter ego de Deadpool. Armado con sus nuevas habilidades y un oscuro y retorcido sentido del humor, Deadpool intentará dar caza al hombre que casi destruye su vida."
+    }
+  ]
+}

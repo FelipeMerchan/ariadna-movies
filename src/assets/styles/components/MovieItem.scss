@@ -1,0 +1,87 @@
+@import '../Mixins.scss';
+
+.MovieItem {
+  position: relative;
+  display: inline-block;
+  height: 525px;
+  width: 350px;
+  overflow: hidden;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: .5s;
+  will-change: transform;
+  transform-origin: center left;
+
+  &__image {
+    height: 525px;
+    width: 350px;
+    object-fit: cover;
+  }
+
+  &__details {
+    position:absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space) calc(var(--space) * 7);
+    background-color: rgba(0, 0, 0, .85);
+    font-size: 10px;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: .5s;
+    will-change: opacity;
+  }
+
+  &__title {
+    margin-block-end: calc(var(--space) * 9);
+    color: var(--white-color);
+    @include font-size(30px);
+  }
+
+  &__button {
+    display: block;
+    @include button;
+
+    &:first-child {
+      margin-block-end: calc(var(--space-2) - 5px);
+    }
+
+    &--ghost {
+      @include ghost-button;
+    }
+  }
+
+  &:hover .MovieItem__details {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .MovieItem {
+    width: 100%;
+    height: auto;
+
+    &__image {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .MovieItem {
+
+    &__details {
+      padding: var(--space) var(--space-5);
+    }
+
+    &__button {
+      max-width: 210px;
+    }
+  }
+}

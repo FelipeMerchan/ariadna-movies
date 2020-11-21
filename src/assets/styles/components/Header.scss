@@ -1,0 +1,171 @@
+@import '../Mixins.scss';
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: var(--surfaceColor);
+
+  &__hamburger-button {
+    display: none;
+  }
+
+  &__nav {
+    height: inherit;
+
+    & > ul {
+      display: flex;
+      height: inherit;
+    }
+
+    & li {
+      height: inherit;
+    }
+  }
+
+  &__close-button {
+    display: none;
+  }
+
+  &__navItem {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 var(--space-3);
+    color: var(--black-color);
+    font-weight: var(--semi-bold);
+    @include font-size(16px);
+
+    &:nth-of-child(1) {
+      padding: 0 var(--space-2);
+    }
+
+    &:hover {
+      background-color: var(--action-color);
+    }
+
+    &--active {
+      background-color: var(--action-color);
+    }
+
+    &.sign-in {
+      padding: 0 var(--space-5);
+      border-inline-start: 1px solid #dcdcdc;
+      border-inline-end: 1px solid #dcdcdc;
+      background-color: #eeeeee;
+    }
+  }
+}
+
+.overlay {
+  display: none;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .Header {
+    height: 120px;
+
+    &__hamburger-button {
+      display: block;
+      width: 54px;
+      height: 40px;
+      cursor: pointer;
+      background-image: url('../../static/icons/hamburger-menu.svg');
+      background-size: contain;
+    }
+
+    &__nav {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 350px;
+      height: 100vh;
+      z-index: 100;
+      opacity: 0;
+      clip-path: inset(0% 0% 100% 100%);
+      transition: all .5s ease-in-out;
+      background-color: var(--surface-color);
+
+      &.is-active {
+        clip-path: inset(0% 0% 0% 0%);
+        opacity: 1;
+      }
+
+      & > ul {
+        display: initial;
+        height: inherit;
+      }
+
+      & li {
+        width: 100%;
+        height: 80px;
+        border-block-end: 1px solid #dcdcdc;
+      }
+    }
+
+    &__close-button {
+      display: flex;
+      align-items: center;
+      padding-inline-start: var(--space-3);
+
+      & > button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        background-image: url('../../static/icons/close-button.svg');
+        background-size: contain;
+
+        &:after {
+          position: absolute;
+          display: inline-block;
+          padding: 0 var(--space-3);
+          content: "Close";
+          color: var(--black-color);
+          font-weight: var(--semi-bold);
+          @include font-size(16px);
+        }
+      }
+    }
+
+    &__navItem {
+
+      &.sign-in {
+        padding: 0 var(--space-3);
+      }
+    }
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    display: block;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, .5);
+    transition: opacity .7s ease-in, visibility .7s ease-in;
+    &.is-active {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .Header {
+    height: 80px;
+
+    &__hamburger-button {
+      width: 40px;
+      height: 30px;
+    }
+  }
+}

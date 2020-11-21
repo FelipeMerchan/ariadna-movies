@@ -1,0 +1,22 @@
+@import './Functions.scss';
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+  line-height: calculateRem($size)*1.2;
+}
+
+@mixin button {
+  padding: calc(var(--space) + 5px) var(--space-5);
+  color: var(--black-color);
+  font-weight: var(--bold);
+  text-align: center;
+  background-color: var(--action-color);
+  @include font-size(16px);
+}
+
+@mixin ghost-button {
+  border: 1px solid var(--white-color);
+  color: var(--white-color);
+  background-color: transparent;
+}

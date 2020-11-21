@@ -1,0 +1,47 @@
+@import '../Mixins.scss';
+
+.ModuleTab {
+  display: flex;
+  overflow-x: scroll;
+
+  & .ModuleTab__itemContainer {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-block-end: var(--space);
+    &.is-active {
+      position: relative;
+      border-block-end: 3px solid var(--black-color);
+
+      &:after {
+        position: absolute;
+        bottom: -11px;
+        display: inline-block;
+        content: "";
+        margin: 0 auto;
+        background-color: transparent;
+        width: 0;
+        height: 0;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-top: 10px solid var(--black-color);
+      }
+    }
+  }
+
+  &__item {
+    padding: var(--space) calc(var(--space-3) + 5px);
+    font-family: var(--font);
+    font-weight: var(--semi-bold);
+    color: var(--black-color);
+    @include font-size(20px);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .ModuleTab {
+    &__item {
+      padding: var(--space) var(--space-2);
+    }
+  }
+}
