@@ -12,7 +12,7 @@ This is a technical test to apply for the position of Frontend Developer.
 
 3. Install the dependencies: `npm install`
 
-4. Cree una API REST falsa a partir del archivo data.json: `json-server data.json`
+4. Create a fake REST API from the data.json file: `json-server data.json`
 
 5. Finally, you to be able to run it: `npm run build:dev`
 
