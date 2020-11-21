@@ -1,7 +1,7 @@
 # Ariadna Movies
 
-Diviértete con nuestras películas en línea. Completamente gratis, sin límite de tiempo y una gran variedad de títulos nuevos todos los días.
-Esta es una prueba técnica para aplicar al cargo de Frontend Developer.
+Have fun with our movies online. Completely free, with no time limit and a great variety of new titles every day.
+This is a technical test to apply for the position of Frontend Developer.
 
 
 ## Installation
@@ -22,7 +22,7 @@ You can execute the following command:
 
     npm run build
 
-##Technologies
+## Technologies
 
 - React
 - React Router
@@ -40,7 +40,7 @@ You can execute the following command:
 
 ### Home Screen
 
-![Home Screen](home-screen.jpg)
+![Home Screen](https://github.com/FelipeMerchan/ariadna-movies/blob/main/src/assets/static/home-screen.jpg)
 
 ## Author
 
