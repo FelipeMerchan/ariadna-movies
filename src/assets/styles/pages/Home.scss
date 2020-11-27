@@ -44,12 +44,16 @@
 }
 
 .wrapper.main {
-  padding: calc(var(--space) * 8) var(--space-2);
+  padding: calc(var(--space) * 8) 0;
 }
 
 @media only screen and (max-width: 1440px) {
   .slider-indicatorContainer {
     right: 50px;
+  }
+
+  .wrapper.main {
+    padding: calc(var(--space) * 8) var(--space-5);
   }
 }
 
