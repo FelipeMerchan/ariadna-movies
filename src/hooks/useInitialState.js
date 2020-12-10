@@ -4,9 +4,13 @@ export const useInitialState = (API) => {
   const [ movies, setMovies ] = useState([])
   useEffect(() => {
     (async () => {
-      const response = await fetch(API)
-      const data = await response.json()
-      setMovies(data)
+      try {
+        const response = await fetch(API)
+        const data = await response.json()
+        setMovies(data)
+      } catch (error) {
+        console.error(error)
+      }
     })()
   }, [])
   return movies

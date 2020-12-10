@@ -70,6 +70,10 @@
       width: 100%;
       height: auto;
     }
+
+    &__details {
+      padding: var(--space) var(--space);
+    }
   }
 }
 
