@@ -12,8 +12,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: 'js/[name].[hash].js',
-    publicPath: 'http://localhost:8080/',
-    chunkFilename: 'js/[id].[chunkhash].js'
+    publicPath: '/'
   },
   resolve: {
     extensions: ['.js', '.jsx']
