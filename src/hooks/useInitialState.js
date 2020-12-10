@@ -7,7 +7,7 @@ export const useInitialState = (API) => {
       try {
         const response = await fetch(API)
         const data = await response.json()
-        setMovies(data)
+        setMovies(data.initialState)
       } catch (error) {
         console.error(error)
       }

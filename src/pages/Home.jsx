@@ -9,7 +9,7 @@ import { MovieItem } from '../components/MovieItem'
 import { useInitialState } from '../hooks/useInitialState'
 import '../assets/styles/pages/Home.scss'
 
-const API = 'http://localhost:3000/initialState'
+const API = 'https://raw.githubusercontent.com/FelipeMerchan/ariadna-movies/main/data.json'
 
 export const Home = () => {
 
