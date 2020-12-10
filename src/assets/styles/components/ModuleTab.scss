@@ -34,6 +34,7 @@
     font-family: var(--font);
     font-weight: var(--semi-bold);
     color: var(--black-color);
+    cursor: pointer;
     @include font-size(20px);
     }
 }
